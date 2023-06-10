@@ -11,6 +11,23 @@
 | [mypy](https://mypy.readthedocs.io/en/stable/)    |  static type checking |
 | [pysen](https://github.com/pfnet/pysen)    | manage static analysis tool  |
 
+## Usage
+
+Run formatter
+```bash
+$ make format
+```
+
+Run linter 
+```bash
+$ make lint 
+```
+
+Run pytest 
+```bash
+$ make test 
+```
+
 ## 参考論文1
 
 - title: URLNet: Learning a URL Representation with Deep Learning for Malicious URL Detection
