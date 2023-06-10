@@ -13,8 +13,8 @@ class URLCheckResponse(BaseModel):
 
 
 models = [
-    {"name": "Model 1", "description": "First model."},
-    {"name": "Model 2", "description": "Second model."}
+    {"name": "Model-1", "description": "First model."},
+    {"name": "Model-2", "description": "Second model."}
 ]
 
 router = APIRouter()
