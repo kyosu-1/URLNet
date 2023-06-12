@@ -2,6 +2,29 @@
 
 悪性URL検知の機械学習・深層学習アルゴリズムの論文実装を行う
 
+## Requirements
+
+* pyenv
+* Poetry
+* Docker
+
+## Setup
+
+Install Python Dependencies
+
+Use pyenv to install Python 3.9.10 environments
+
+```bash
+$ pyenv install 3.9.10
+$ pyenv local 3.9.10
+```
+
+Use `poetry` to install library dependencies
+
+```bash
+$ poetry install
+```
+
 ## Code static analysis tool
 | Tool                   | Usage              |
 |----------------------------|----------------------------|
